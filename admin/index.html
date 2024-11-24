@@ -17,7 +17,7 @@
     <!-- Nhúng AngularJS -->
     <script src="/lib/angular.js"></script>
     <script src="/lib/angular-route.js"></script>
-    <!-- <script src="controller/fill.js"></script>
+    <script src="controller/fill.js"></script>
     <script src="controller/add.js"></script>
     <script src="controller/update.js"></script>
     <script src="controller/fills.js"></script>
@@ -28,7 +28,7 @@
     <script src="controller/chitiet.js"></script>
     <script src="controller/donhang.js"></script>
     <script src="controller/donhangg.js"></script>
-    <script src="controller/phanquyen.js"></script> -->
+    <script src="controller/phanquyen.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-cookies/1.8.3/angular-cookies.min.js"
         integrity="sha512-eM4WApD53FS2pv6fIgY4E2utWB82WSp3QPeoemIzA9VeOv9vQ1UzYBKIkXAwS71SCilEFpfkwtCZHj2uSS3keQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -91,14 +91,14 @@
                     templateUrl: "view/login.html",
                     controller: login
                 })
-                // .when("/trang-nguoi-dung", {
-                //     templateUrl: "view/donhang.html",
-                //     // controller: donhang
-                // })
-                // .when("/hd", {
-                //     templateUrl: "view/donhangg.html",
-                //     // controller: donhangg
-                // })
+                .when("/trang-nguoi-dung", {
+                    templateUrl: "view/donhang.html",
+                    controller: donhang
+                })
+                .when("/hd", {
+                    templateUrl: "view/donhangg.html",
+                    controller: donhangg
+                })
                 .when("/in-dex", {
                     templateUrl: "index.html",
                     controller: index
