@@ -224,6 +224,14 @@
       "trangthai": "Thành công",
       "idkhachhang": "1",
       "idgame": "1"
+    },
+    {
+      "id": "0624",
+      "tensung": "Ak47",
+      "gia": 20000,
+      "trangthai": "Thành công",
+      "idkhachhang": "1",
+      "idgame": "555555"
     }
   ]
 }
