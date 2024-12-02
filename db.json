@@ -232,6 +232,22 @@
       "trangthai": "Thành công",
       "idkhachhang": "1",
       "idgame": "555555"
+    },
+    {
+      "id": "6200",
+      "tensung": "Ak47",
+      "gia": 20000,
+      "trangthai": "Thành công",
+      "idkhachhang": "1",
+      "idgame": "166161661"
+    },
+    {
+      "id": "89e3",
+      "tensung": "Scar",
+      "gia": 20000,
+      "trangthai": "Đã huỷ",
+      "idkhachhang": "1",
+      "idgame": "8888888"
     }
   ]
 }
